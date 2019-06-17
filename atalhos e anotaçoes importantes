@@ -1,0 +1,19 @@
+ctrl + ' = abre terminal
+npm i + nome da dependencia = instala modulos de terceiros
+instalar pelo terminal sempre dentro da pasta desejada
+
+.gitignore = arquivo para distinguir as pastas que devem ser ignoradas no git
+lodash = biblioteca com metodos
+nodemon = executa a aplicação pelo terminal verificando novas alterações
+ctrl + alt + m = para execução
+
+//Referente a aula 5
+npm init ou npm init -y -- cria o arquivo packge.json
+npm i --save cria no package.json uma area descrevendo dependencias instaladas
+npm install --save-dev exios@0.17.1 -E --exemplo que faz donwload so dessa versão em desenvolvedor
+
+//Referente a aula 10
+alterando main em package.json muda-se o arquivo principal do projeto
+para instalar todas as dependencias do projeto pelo package.json basta ir no terminal e colocar npm i, que sera baixada todas dependencias
+Script start - no exemplo e criado start que ira ser iniciado com o nodemon, colocando no terminal npm start sera iniciado
+Script dev - como dev não e padrao deve ser executado por npm run dev 
